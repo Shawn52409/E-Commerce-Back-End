@@ -2,8 +2,10 @@ const { Model, DataTypes } = require('sequelize');
 
 const sequelize = require('../config/connection.js');
 
+// Initialize Category model (table) by extending off Sequelize's Model class
 class Category extends Model {}
 
+// Category table defined
 Category.init(
   {
     id: {
@@ -12,7 +14,7 @@ Category.init(
       primaryKey: true,
       autoIncrement: true
     },
-    location_name: {
+    category_name: {
       type: DataTypes.STRING,
       allowNull: false
     }
