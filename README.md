@@ -3,11 +3,11 @@ Created by Shawn Miller
 
 # Table of Contents
 * [Description](#Description)
-* [Installation Instructions](#Installation)
-* [Technologies Used](#Technologies)
-* [Appearance](Appearance)
-* [Known Bugs](Known)
-* [Contact info](Contact)
+* [Installation](#Installation)
+* [Technologies](#Technologies)
+* [Appearance](#Appearance)
+* [Bugs](#Bugs)
+* [Contact-Info](#Contact-Info)
 
 # Description
 This app was created for a manager at an internet retail company that uses the latest technologies so that their company can compete with other e-commerce companies.
@@ -15,12 +15,10 @@ This app was created for a manager at an internet retail company that uses the l
 The following three tables are examples of the seeded tables used in the database.
 ![Model of the three tables in database](./img/ecommerce-database.jpg)
 
+# Installation
+A user will need to download and install node.js, npm Sequelize, npm dotenv, npm mysql2 and npm express.  The user will need to log into mysql and SOURCE the provided schema.sql file to create the database.  The user will also need to update the .env file with their mysql password.  Finally, the user will need run a 'npm start' at the command prompt.
 
-
-# Installation Instructions
-A user will need to download and install node.js, npm Sequelize, npm dotenv, npm mysql2 and npm express.  The user will need to log into mysql and SOURCE the provided schema.sql file to create the database.  The user will also need to update the .env file with their mysql password.  Once that is complete the user will just need run a 'npm start' at the command prompt.
-
-# Technologies Used
+# Technologies
 - Node.js
 - npm Sequelize
 - npm dotenv
@@ -34,10 +32,10 @@ A user will need to download and install node.js, npm Sequelize, npm dotenv, npm
 - The following link is a walkthrough video with audio that demonstrates the functionality of the E-Commerce Back End app working in node.js and tested using Insomnia Core.
 https://watch.screencastify.com/v/olXTS1FdGReiyq7eXzST
 
-# Known Bugs
+# Bugs
 No known bugs.
 
-# Contact info
+# Contact-Info
 shawnsmm@gmail.com
 
 github.com/Shawn52409
